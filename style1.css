@@ -1,0 +1,61 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background: #fdf6f0;
+  color: #333;
+}
+
+header {
+  background: #d94f4f;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.craft {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.craft:hover {
+  transform: scale(1.02);
+}
+
+.craft img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.craft h2 {
+  margin: 1rem;
+  color: #d94f4f;
+}
+
+.description {
+  margin: 0 1rem 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #d94f4f;
+  color: white;
+}
